@@ -1,0 +1,197 @@
+@font-face{
+    font-family: "Proxima Nova";
+    src: url(./fonts/ProximaNova-Bold.woff);
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    width: 224px;
+    height: 90px;
+    padding-right: 650px;
+}
+.banner{
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    z-index: -1;
+}
+.foter{
+   width: 100%;
+   height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+.name{   
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;}
+p{
+    font-size: 18px;
+    letter-spacing: 6px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Proxima Nova";
+}
+.foter_by{
+    font-size: 36px;
+    letter-spacing: 6px;
+    line-height: 40px;
+    color: #f84545;
+    font-weight: 300;
+    font-family: "Proxima Nova";
+    text-align: center;
+    text-decoration: none;
+    padding-top: 30px;
+}
+.top_foter{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 160px;
+    width: 100%;
+}
+.top_foter>a{
+    font-size: 18px;
+    letter-spacing: 6px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Proxima Nova";
+    text-decoration: none;
+}
+.top_foter>a:hover{
+    color: #f84545;
+}
+.name_text{
+    font-size: 60px;
+    letter-spacing: 36px;
+    line-height: 70px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Proxima Nova";
+    text-align: center;
+}
+.foter > .Arrow{
+    padding-top: 30px;
+    width: 85px;
+    height: 45px;   
+}
+.brend .grid-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.brend .grid-item{
+    width: 100%;
+    height: 100%;
+}
+.brend{
+    max-width: calc(100% - 120px);
+    padding: 60px; /* Відступи всередині без виходу за межі */
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-gap: 60px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.grid-item1{
+    grid-column: 1 /  3;
+    grid-row: 1 / 3;
+}
+.f{
+    width: 1000px;
+    height: 1000px;
+    background-color: #f84545;
+}
+.brend .grid-item p{
+    font-size: 38px;
+    position: absolute;
+    z-index: 2;
+    transform: translate(20px, -65px);
+}
+.brend .grid-item .Grid_img{
+    position: absolute;
+    z-index: 2;
+    transform: translate(20px, -180px);
+    width: auto;
+    height:auto;
+}
+.brend .grid-item .Grid_img1{
+    position: absolute;
+    z-index: 2;
+    transform: translate(20px, -270px);
+    width: auto;
+    height:auto;
+}
+.botton{
+    background-color: rgb(16, 16, 16);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.g{
+    padding-left: 900px;
+    height: 50px;
+    fill: white;
+}
+.botton a{
+    font-size: 18px;
+    letter-spacing: 6px;
+    line-height: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Proxima Nova";
+    text-decoration: none;
+}
+.botton a:hover{
+    color: #f84545;
+}
+.botton img:hover{
+    cursor: pointer;
+}
+.top_foter_reg{
+    background-color: rgb(16, 16, 16);
+    height: 150px;
+}
+
+form{
+    padding: 40px 0px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: rgb(16, 16, 16);
+    width: 500px;
+    border: 3px solid rgb(46, 46, 46);
+    color: #ffffff;
+    
+}
+.reg{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 76px 0px;
+    background-image: url(./img/banner.png);
+}
+.gender-group {
+    display: flex;
+    gap: 10px;
+}
